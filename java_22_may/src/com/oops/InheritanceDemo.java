@@ -19,7 +19,7 @@ package com.oops;
  * 
  */
 
-class student
+class student12
 {
 	protected int id;
 	protected String name;
@@ -30,7 +30,7 @@ class student
 		name="ajay";
 	}
 }
-	class Sports extends student
+	class Sports extends student12
 	{
 		int sport_marks=85;
 //		System.out.println(""+id);
