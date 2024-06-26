@@ -7,19 +7,30 @@ package com.keyword;
  * opp of Final
  * 
  * Method:
- * 
+ * 1. only static variable are allowed inside static method
+ * 2. we can static method by "class name" only but right now we call with object
  * 
  */
 class SDemo{
 	int i_no;
 	static int s_no;
 	
+	public static void show() {
+		s_no=1234;
+		int r_no=100;
+		
+		System.out.println("s no is :"+s_no);
+		System.out.println("r no is :"+r_no);
+		
+	}
 }
 public class StaticDemo {
 	public static void main(String[] args) {
 		SDemo s1=new SDemo();
 		SDemo s2=new SDemo();
 		SDemo s3=new SDemo();
+		
+		SDemo.show();
 		
 		s1.i_no=1;//4 byte
 		s2.i_no=2;// 4 byte

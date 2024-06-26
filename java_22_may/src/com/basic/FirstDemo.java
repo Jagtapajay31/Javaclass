@@ -1,6 +1,5 @@
  package com.basic;
 
-import java.security.DomainCombiner;
 import java.text.DecimalFormat;
 
 public class FirstDemo {
@@ -22,8 +21,12 @@ public static void main(String[] args) {
 	System.out.println("float value is :"+f1);
 	System.out.println("Double value is :"+d1);
 	
+	System.out.println();
+	
 	DecimalFormat dd = new DecimalFormat("#.##");
 	System.out.println("Double value is :" +dd.format(d1));
+	
+	System.out.println();
 	
 	System.out.println("Size of Integer is :"+Integer.BYTES);
 	System.out.println("Size of float is :"+Float.BYTES);

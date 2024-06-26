@@ -1,7 +1,5 @@
 package com.basic;
 
-import javax.swing.plaf.synth.SynthOptionPaneUI;
-
 /*
  * 
  * Loop: Iterative, Repetitive

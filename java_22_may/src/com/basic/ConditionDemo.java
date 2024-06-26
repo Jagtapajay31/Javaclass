@@ -27,30 +27,35 @@ public class ConditionDemo {
 	public static void main(String[] args) {
 		int a = 1000,b= 20,c=30;
 	
-		/*int a=11;
+		int a1=11;
 		
-		if(a>10) {
-			System.out.println("a is greater than 10");
+		if(a1>10) {
+			System.out.println("a1 is greater than 10");
 		}else {
-			System.out.println("a is smaller than 10");
+			System.out.println("a1 is smaller than 10");
 		}
-		}*/
-//		int a=120, b=12000, c=1000;
-//		
-//		if(a>b) {
-//			if(a>c) {
-//				System.out.println("a is greater");
-//			}else {
-//				System.out.println("c is greater");
-//			}
-//		}else {
-//			if(b>c) {
-//				System.out.println("b is greater");
-//			}else {
-//				System.out.println("C is greater");
-//			}
-//		}
-//	}	
+		
+		System.out.println(" ");
+
+		int a2=120, b1=12000, c1=1000;
+		
+		if(a2>b1) {
+			if(a2>c1) {
+				System.out.println("a is greater");
+			}else {
+				System.out.println("c is greater");
+			}
+		}else {
+			if(b1>c1) {
+				System.out.println("b is greater");
+			}else {
+				System.out.println("C is greater");
+			}
+		}
+		
+		System.out.println(" ");
+		
+		
 		if(a>b&&a>c) {
 			System.out.println("A is greater");
 		}else if(b>a && b>c) {
