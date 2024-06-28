@@ -30,7 +30,7 @@ public class StaticDemo {
 		SDemo s2=new SDemo();
 		SDemo s3=new SDemo();
 		
-		SDemo.show();
+//		SDemo.show();
 		
 		s1.i_no=1;//4 byte
 		s2.i_no=2;// 4 byte
