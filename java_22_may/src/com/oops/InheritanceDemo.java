@@ -6,7 +6,7 @@ package com.oops;
  * Re usability
  * Extensibility
  * less object creation
- * use "extends" keyword to inherit the parent clss
+ * use "extends" keyword to inherit the parent class
  * 
  * types:
  * 1. Single : one parent one child
