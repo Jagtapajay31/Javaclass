@@ -19,7 +19,7 @@ public class CharacterStreamDemo {
 		try {
 			//to open and create file
 			FileWriter fw=new FileWriter("file2.txt",true);
-			String msg="\nThis is Top Texh Surt Ring Road";
+			String msg="\nThis is Top Tech Ahmedabad Ring Road";
 			//to write into the file
 			fw.write(msg);
 			//3. to close file

@@ -55,7 +55,7 @@ public class LoopDemo {
 		do {
 			System.out.println(k);
 			k++;
-		}while(k<=5);
+		}while(k>5);
 		// 21 time loop is executed
 	}
 }

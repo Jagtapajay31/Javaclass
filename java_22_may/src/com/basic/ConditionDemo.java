@@ -29,15 +29,15 @@ public class ConditionDemo {
 	
 		int a1=11;
 		
-		if(a1>10) {
-			System.out.println("a1 is greater than 10");
+		if(a1>13) {
+			System.out.println("a1 is greater than 13");
 		}else {
-			System.out.println("a1 is smaller than 10");
+			System.out.println("a1 is smaller than 13");
 		}
 		
 		System.out.println(" ");
 
-		int a2=120, b1=12000, c1=1000;
+		int a2=120, b1=12, c1=1000;
 		
 		if(a2>b1) {
 			if(a2>c1) {

@@ -40,7 +40,7 @@ public class ByteStreamDemo {
 		try {
 			//to open and create file
 			FileOutputStream fos=new FileOutputStream("file1.txt",true);
-			String msg="\nThis is tops technologies...surat";
+			String msg="\nThis is tops technologies...Ahmedabad";
 			byte[] bb=msg.getBytes();
 			//to write into the file
 			fos.write(bb);
@@ -67,6 +67,5 @@ public class ByteStreamDemo {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		
 	}
 }
