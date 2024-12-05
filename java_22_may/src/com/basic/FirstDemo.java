@@ -29,10 +29,11 @@ public static void main(String[] args) {
 	System.out.println();
 	
 	System.out.println("Size of Integer is :"+Integer.BYTES);
-	System.out.println("Size of float is :"+Float.BYTES);
+	System.out.println("Size of long is :"+Long.BYTES);
 	System.out.println("Size of char is :"+Character.BYTES);
 	System.out.println("Size of byte is :"+Byte.BYTES);
 	System.out.println("Size of float is :"+Float.BYTES);
 	System.out.println("Size of double is :"+Double.BYTES);	
+	
 }
 }

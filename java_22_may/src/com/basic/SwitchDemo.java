@@ -4,19 +4,19 @@ public class SwitchDemo {
 	public static void main(String[] args) {
 		int choice = 2;
 		
-//		switch (choice) {
-//		case 1:
-//			System.out.println("Light is on");
-//			break;
-//		case 2:
-//			System.out.println("Fan is on");
-//			break;
-//		case 3:
-//			System.out.println("Ac is on");
-//			break;			
-//		default:
-//			break;
-//		}
+		switch (choice) {
+		case 1:
+			System.out.println("Light is on");
+			break;
+		case 2:
+			System.out.println("Fan is on");
+			break;
+		case 3:
+			System.out.println("Ac is on");
+			break;			
+		default:
+			break;
+		}
 		
 //Vowel and consonant
 		
